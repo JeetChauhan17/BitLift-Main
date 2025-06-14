@@ -1,0 +1,36 @@
+{
+  "name": "vercel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.535.0",
+    "@types/express": "^4.17.23",
+    "@types/node": "^24.0.1",
+    "aws-sdk": "^2.1569.0",
+    "axios": "^1.6.8",
+    "b2": "^0.1.11",
+    "backbone": "^1.6.0",
+    "cors": "^2.8.5",
+    "cross-fetch": "^4.0.0",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2",
+    "redis": "^4.6.13",
+    "simple-git": "^3.22.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17"
+  },
+  "type": "commonjs"
+}

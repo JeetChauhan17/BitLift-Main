@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Redis dump (if used locally)
+dump.rdb
+
+# VS Code settings
+.vscode/
+
+# Optional: Ignore coverage files (if using test coverage tools like nyc or jest)
+coverage/
+
+# PM2 process files (if using PM2 for production)
+pids/
+*.pid
+*.seed
+
+# TypeScript cache
+.cache/
+
